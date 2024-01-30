@@ -1,0 +1,41 @@
+#reviewbox-maindiv {
+    
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid black;
+    width: 80%;
+    height: 300px;
+     border-radius: 10px;
+       flex: 0 0 50%;
+       margin-right: 100px;
+       margin-left: 50vb;
+}
+
+#reviewbox-subdiv-img {
+    position: relative;
+    top:-40px
+}
+
+#reviewbox-subdiv-img img {
+
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+#reviewbox-subdiv-name {
+    position: relative;
+    top:-30px;
+    font-size: 23px;
+    font-weight:700;
+}
+
+#reviewbox-subdiv-review{
+    width: 75%;
+    font-size: 16px;
+    font-weight:700;
+    color: #3b6aa2;
+
+}

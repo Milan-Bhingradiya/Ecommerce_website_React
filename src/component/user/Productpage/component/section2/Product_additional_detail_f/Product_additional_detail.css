@@ -1,0 +1,23 @@
+#product-additional-detail-maindiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 5%;
+}
+
+#product-additional-detail-subdiv{
+    width: 400px;
+    border:1px solid black
+}
+
+table {
+    /* border-collapse: collapse; */
+    width: 100%;
+  }
+  th, td {
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {background-color: #f2f2f2;}

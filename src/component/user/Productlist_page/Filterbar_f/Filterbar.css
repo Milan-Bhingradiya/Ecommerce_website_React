@@ -1,0 +1,202 @@
+#filterbar-maindiv {
+    /* border: 2px solid black; */
+    height: 65px;
+    /* margin-top: 15px; */
+    padding-top: 10px;
+    position: sticky;
+    top: 0px;
+    z-index: 2;
+    background-color: white;
+    box-shadow: 0px 5px 10px -15px #111;
+}
+
+#fileterbar-subdiv1 {
+    float: left;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid black; */
+}
+
+/* this is for bold heafing of sortby and filterby */
+#filterbar-filterbytext-item p {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#filterbar-sortbytext-item p {
+    font-size: 18px;
+    font-weight: 600;
+
+}
+
+#fileterbar-subdiv2 {
+    float: right;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    /* border: 2px solid black; */
+}
+
+
+
+
+
+.filterbar-items {
+    position: relative;
+    list-style: none;
+    height: 38px;
+    width: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gray;
+    border-radius: 3px;
+}
+
+#filterbar-filterbytext-item {
+    border: none;
+}
+
+#filterbar-sortbytext-item {
+    border: none;
+}
+
+#filterbar-sortby-item {
+    position: relative;
+    /* display: inline-block; */
+    list-style: none;
+    height: 38px;
+    margin-left: 10px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+}
+
+.filterbar-items .filterbar-items-firstdiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.filterbar-items p {
+    /* border: 2px solid black; */
+    font-size: 15px;
+    font-weight: 400;
+    margin: 5px;
+}
+
+.filterbar-items i {
+    /* border: 2px solid black; */
+    font-size: 20px;
+    height: 30px;
+}
+
+
+.filterbar-item-dropdown {
+    left: 0px;
+    display: none;
+    width: min-content;
+    position: absolute;
+    top: 60px;
+    background-color: white;
+    min-width: 200px;
+    /* box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2); */
+    z-index: 1;
+    border: 2px solid black;
+    animation-name: growDown;
+    animation-duration: 400ms;
+    animation-fill-mode: forwards;
+    transition-timing-function: ease-in-out;
+    transform-origin: top center;
+    min-height: auto;
+    max-height: 300px;
+    overflow: auto; 
+}
+
+@keyframes growDown {
+    0% {
+        transform: scaleY(0)
+    }
+
+    80% {
+        transform: scaleY(1.1)
+    }
+
+    100% {
+        transform: scaleY(1)
+    }
+}
+
+
+.filterbar-item-dropdown div {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+    color: black;
+    padding: 3px;
+    text-decoration: none;
+    /* display: block; */
+}
+
+
+
+/* #filterbar-pricediv:hover .filterbar-item-dropdown {
+    display: block;
+
+} */
+/* 
+#filterbar-jwellerydiv:hover .filterbar-item-dropdown {
+    display: block;
+}
+
+#filterbar-genderdiv:hover .filterbar-item-dropdown {
+    display: block;
+}
+
+#filterbar-goldpurity-div:hover .filterbar-item-dropdown {
+    display: block;
+}
+
+#filterbar-metaldiv:hover .filterbar-item-dropdown {
+    display: block;
+}
+
+#filterbar-sortby-item:hover .filterbar-item-dropdown {
+    display: block;
+} */
+
+
+input[type=checkbox] {
+    margin: 5px;
+    width: 20px;
+    height: 20px;
+}
+
+
+
+
+
+
+
+
+@media (max-width:700px) {
+    #filterbar-maindiv {
+        display: none;
+    }
+}

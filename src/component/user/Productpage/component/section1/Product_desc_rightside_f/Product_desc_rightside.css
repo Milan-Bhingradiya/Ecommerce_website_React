@@ -1,0 +1,233 @@
+#product-desc-rightside-maindiv {
+    /* border: 2px solid black; */
+    width: 700px;
+    margin: 20px;
+}
+
+
+#product-titlediv {
+    font-size: 22px;
+    font-weight: 700;
+    margin: 10px;
+}
+
+#product-descdiv {
+    margin: 10px;
+
+}
+
+#product-pricediv {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 10px;
+    margin-bottom: 0px;
+}
+
+#product-incallinfo-div {
+    font-size: 15px;
+    font-weight: 400;
+    margin-left: 10px;
+
+}
+
+#product-instockdiv {
+    height: 23px;
+    width: 100px;
+    background-color: rgb(226, 196, 226);
+    display: flex;
+    justify-content: center;
+    border-radius: 3px;
+    margin: 10px;
+}
+
+#product-instockdiv p {
+    /* border: 2px solid black; */
+    font-size: 11px;
+    font-weight: 700;
+    padding: 4px;
+    color: white;
+
+}
+
+/* this div contain both select size and select metal */
+#product-choosesize-choosemetal-containerdiv {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* for sleting size and dropdowncss */
+#product-choosesize-div {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.product-choosesize-div-leftsubdiv {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.product-choosesize-div-rightsubdiv {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.product-choosesize-div-rightsubdiv-firstdiv {
+    height: 30px;
+    width: 250px;
+    border: 1px solid black;
+    background-color: white;
+}
+
+.product-choosesize-div-rightsubdiv-dropdown {
+    position: absolute;
+    display: none;
+    width: 250px;
+    height: 100px;
+    animation-name: growdown;
+    animation-duration: 400ms;
+    transform-origin: top center;
+    overflow-y: scroll;
+    border: 1px solid black;
+
+}
+
+@keyframes growdown {
+
+    0% {
+        transform: scaleY(0)
+    }
+
+    80% {
+        transform: scaleY(1.1)
+    }
+
+    100% {
+        transform: scaleY(1)
+    }
+}
+
+.product-choosesize-div-rightsubdiv-dropdown-content {
+    display: block;
+    background-color: white;
+    padding: 1px;
+}
+
+.product-choosesize-div-rightsubdiv:hover .product-choosesize-div-rightsubdiv-dropdown {
+    display: block;
+}
+
+
+
+/* choose  metal section */
+#product-choose-metaldiv {
+    display: flex;
+    flex-direction: row;
+}
+
+/* for select metal use select size css's class, not write new css */
+
+
+/* product shop now div */
+
+
+#product-btn-container {
+    display: flex;
+    flex-direction: row;
+}
+
+#product-shopnow-div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: brown;
+    border-radius: 5px;
+    border: 2px solid black;
+    width: 35%;
+    height: 45px;
+
+    margin: 10px;
+}
+
+#product-shopnow-div div {
+    color: wheat;
+}
+
+#product-addtocart-div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: brown;
+    border-radius: 5px;
+    border: 2px solid black;
+    width: 35%;
+    height: 45px;
+
+    margin: 10px;
+}
+
+#product-addtocart-div div {
+    color: wheat;
+}
+
+
+@media (max-width:600px) {
+    #product-titlediv {
+        font-size: 18px;
+        font-weight: 700;
+
+    }
+
+    #product-desc-maindiv {
+        width: 90%;
+    }
+
+    .product-choosesize-div-leftsubdiv {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .product-choosesize-div-rightsubdiv {
+        margin-left: 3px;
+        margin-right: 3px;
+    }
+
+    #product-choosesize-div {
+        margin: 5px;
+    }
+
+    #product-choose-metaldiv {
+        margin: 5px;
+    }
+}
+
+
+@media (max-width:400px) {
+    #product-titlediv {
+        font-size: 16px;
+        font-weight: 700;
+        margin: 10px;
+    }
+
+
+    #product-descdiv {
+        font-size: 14px;
+    }
+}
+
+@media (max-width:300px) {
+
+    #product-addtocart-div div {
+        font-size: 12px;
+    }
+
+    #product-shopnow-div div {
+        font-size: 12px;
+    }
+
+}

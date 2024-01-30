@@ -1,0 +1,193 @@
+#myaccount-headingdiv {
+
+    font-weight: 600;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 1%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#myaccount-heading-leftdiv {
+    font-size: 30px;
+}
+
+#myaccount-heading-rightdiv {
+    width: 100px;
+    background-color: rgb(184, 183, 183);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#myaccount-maindiv {
+    border-top: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+
+#myaccount-leftsubdiv {
+    width: 25%;
+    height: auto;
+    /* border: 1px solid grey; */
+    border-right: 1px solid black;
+    /* border-left: 1px solid black; */
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+}
+
+#myaccount-rightsubdiv {
+    width: 100%;
+    /* border-top: 1px solid black; */
+}
+
+.myaccount-leftsubdiv-subdives {
+    margin: 2px;
+    height: 50px;
+    width: 99%;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+
+.myaccount-leftsubdiv-subdives:hover {
+    background-color: #F2E9E9;
+}
+
+.myaccount-leftsubdiv-subdives div {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+
+
+#myaccount-rightsubdiv-personalinfo-box {
+    /* border: 1px solid black; */
+    border-radius: 10px;
+}
+
+.myaccount-rightsubdiv-box-heading {
+    border: 1px solid black;
+    background-color: #F2E9E9;
+    height: 45px;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.myaccount-rightsubdiv-box-heading div:nth-child(2) {
+    background-color: rgb(116, 105, 105);
+    height: 27px;
+    width: 70px;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.myaccount-rightsubdiv-box-detail {
+    border: 1px solid black;
+    border-top: none;
+
+}
+
+/* #myaccount-rightsubdiv-personalinfo-maindiv {
+    margin: 3%;
+}
+
+#myaccount-rightsubdiv-address-maindiv {
+    margin: 3%;
+}
+
+#myaccount-rightsubdiv-orderhistory-maindiv {
+    margin: 3%;
+}
+
+#myaccount-rightsubdiv-wishlist-maindiv {
+    margin: 3%;
+} */
+
+
+.myaccount-rightsubdiv-box-detail table {
+    table-layout: fixed;
+    width: 100%;
+}
+
+
+.myaccount-rightsubdiv-box-detail table td {
+    word-wrap: break-word;
+}
+
+.myaccount-rightsubdiv-box-detail td:nth-child(1) {
+    width: 40%;
+    /* Set the width for the first column */
+}
+
+
+.myaccount-rightsubdiv-box-detail td:nth-child(2) {
+    width: 5%;
+    /* border: 2px solid black; */
+    /* Set the width for the second column */
+}
+
+
+.myaccount-rightsubdiv-box-detail td:nth-child(3) {
+    /* border: 2px solid black; */
+    width: 55%;
+    /* Set the width for the third column */
+}
+
+/* .myaccount-rightsubdiv-box-detail tr:nth-child(4) td{
+        display: flex;
+        flex-direction:row;
+        justify-content: end    ;
+        border: 2px solid violet;
+          } */
+
+          #myaccount-rightsubdiv-address-box{
+            margin: 10px;
+          }
+
+        #myaccount-rightsubdiv-address-maindiv textarea{
+            width: 100%    ;
+
+          }
+
+
+@media (max-width: 400px) {
+
+    
+#myaccount-maindiv{
+    border: none;
+    flex-direction: column;
+}
+    
+#myaccount-leftsubdiv{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: none;
+}
+
+
+.myaccount-leftsubdiv-subdives{
+    width: 48%;
+    border: 2px solid black;
+}
+
+}

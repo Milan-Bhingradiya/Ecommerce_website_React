@@ -1,0 +1,43 @@
+#product-tags-maindiv {
+    margin: 3%;
+}
+
+#product-tags-maindiv {
+    display: flex;
+    flex-direction: column;
+}
+
+#product-tags-subdiv1 div {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+#product-tags-subdiv2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.product-tag {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.product-tag div {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    background-color: #eee;
+    height: 32px;
+    border: 1px solid black;
+}
+
+.product-tag:hover div {
+    background-color: crimson;
+    color: white;
+}

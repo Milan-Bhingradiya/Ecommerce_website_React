@@ -1,0 +1,21 @@
+.footerbox-maindiv{
+    margin: 20px;
+    width: 300px;
+    height: auto;
+    border: 2px solid black;
+}
+
+
+.footerbox-maindiv .footerbox-heading{
+    font-size: 26px;
+    font-weight: 600;
+    color:#792E2C;
+}
+
+
+
+.footerbox-maindiv .footerbox-text{
+    font-size: 20px;
+    color: brown;
+}
+

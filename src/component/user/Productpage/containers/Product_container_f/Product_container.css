@@ -1,0 +1,28 @@
+#product-container-maindiv {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+
+@media (max-width:1200px) {
+    /* image component's pos is fixed before that make stack type ui , here we need upper and bottom ui so i this change */
+    #product-img-maindiv {
+        position: static;
+    }
+}
+
+@media (max-width:700px) {
+
+    /* image component's pos is fixed before that make stack type ui , here we need upper and bottom ui so i this change */
+    #product-img-maindiv {
+        position: static;
+    }
+
+}
+
+/* body{
+    background-color: red;
+} */

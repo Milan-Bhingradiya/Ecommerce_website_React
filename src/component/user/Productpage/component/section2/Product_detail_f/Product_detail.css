@@ -1,0 +1,17 @@
+#product-detail-maindiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;
+    /* border: 2px solid black; */
+
+}
+
+
+#product-detail-subdiv{
+margin-top: 10px;
+margin-bottom: 5%;
+margin-left:5%;
+margin-right:5%;
+
+}

@@ -1,0 +1,31 @@
+#heading-maindiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+
+}
+
+#heading-horizontal-line-div {
+    width: 80vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#heading-horizontal-line-div div {
+    width: 100%;
+    height: 1px;
+    background-color: black;
+
+}
+#heading-horizontal-line-div img {
+    width: 6%;
+    height: auto;
+
+
+}

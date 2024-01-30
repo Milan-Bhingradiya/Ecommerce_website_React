@@ -1,0 +1,8 @@
+#productbox-container-maindiv{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* border: 2px solid black; */
+}

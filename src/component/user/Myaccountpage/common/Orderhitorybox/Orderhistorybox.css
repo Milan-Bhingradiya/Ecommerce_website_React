@@ -1,0 +1,23 @@
+#orderhistorybox-maindiv{
+    display: flex;
+    flex-direction: row;
+    margin: 6px;
+    border: 1px solid gray;
+    border-radius: 5px;
+
+}
+
+#orderhistorybox-subdiv1 img{
+    width: 100px;
+    height: 100px;
+}
+
+
+#orderhistorybox-subdiv2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 10px;
+
+}
+
